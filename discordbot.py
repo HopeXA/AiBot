@@ -262,7 +262,7 @@ async def load_cogs() -> None:
 asyncio.run(load_cogs())
 if bot.endpoint_connected:
     try:
-        bot.run(DISCORD_BOT_TOKEN)
+        bot.run("MTIxOTQ2ODI1MjY1NzIyMTcwMw.GIZl4C.pCkDxvL1wsqcWHatRX1OMemb5DrxC1QKDvRtJY")
     except discord.errors.LoginFailure:
         print(
             "\n\n\n\nThere is an error with the Discord Bot token. Please check your .env file"
